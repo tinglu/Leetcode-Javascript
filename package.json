@@ -1,0 +1,18 @@
+{
+    "name": "Leetcode Javascript Solutions",
+    "version": "0.0.1",
+    "description": "Leetcode Javascript Solutions",
+    "main": "",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/tinglu/Leetcode-Javascript.git"
+    },
+    "author": {
+        "name": "Ting Lu",
+        "url": "http://lisalu.com.au"
+    },
+    "license": "",
+    "devDependencies": {
+        "http-server": "^0.9.0"
+    }
+}

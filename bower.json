@@ -1,0 +1,27 @@
+{
+    "name": "Leetcode Javascript Solutions",
+    "description": "Leetcode Javascript Solutions",
+    "main": "",
+    "authors": [
+        "Ting Lu"
+    ],
+    "license": "",
+    "keywords": [
+        "Leetcode",
+        "Javascript"
+    ],
+    "homepage": "https://github.com/tinglu/Leetcode-Javascript.git",
+    "moduleType": [
+        "node"
+    ],
+    "ignore": [
+        ".gitignore",
+        "node_modules",
+        "bower_components",
+        "LICENSE",
+        "README.md"
+    ],
+    "dependencies": {
+        "jquery": "^2.2.0"
+    }
+}
