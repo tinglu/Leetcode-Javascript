@@ -1,18 +1,36 @@
 {
-    "name": "Leetcode Javascript Solutions",
-    "version": "0.0.1",
-    "description": "Leetcode Javascript Solutions",
-    "main": "",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/tinglu/Leetcode-Javascript.git"
-    },
-    "author": {
-        "name": "Ting Lu",
-        "url": "http://lisalu.com.au"
-    },
-    "license": "",
-    "devDependencies": {
-        "http-server": "^0.9.0"
-    }
+  "name": "Leetcode-Javascript",
+  "version": "0.0.1",
+  "description": "Leetcode Javascript Solutions",
+  "main": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tinglu/Leetcode-Javascript.git"
+  },
+  "author": {
+    "name": "Ting Lu",
+    "url": ""
+  },
+  "license": "",
+  "devDependencies": {
+    "bower": "^1.7.9",
+    "browser-sync": "^2.10.0",
+    "grunt": "^1.0.1",
+    "grunt-browser-sync": "^2.2.0",
+    "grunt-cli": "^1.2.0",
+    "grunt-contrib-clean": "^1.0.0",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-jshint": "^1.0.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "http-server": "^0.9.0",
+    "jshint": "^2.9.2",
+    "jshint-stylish": "^2.2.0",
+    "load-grunt-tasks": "^3.5.0",
+    "time-grunt": "^1.3.0"
+  },
+  "scripts": {
+    "preinstall": "npm prune",
+    "postinstall": "http-server",
+    "start": "http-server && ./node_modules/grunt-cli/bin/grunt"
+  }
 }

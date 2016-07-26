@@ -1,3 +1,5 @@
 # Leetcode-Javascript
 
-Run `http-server` to debug in localhost.
+Run `npm start` to debug in localhost.
+
+Run `./node_modules/grunt-cli/bin/grunt` to watch js files changes.
