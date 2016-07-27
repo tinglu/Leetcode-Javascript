@@ -31,6 +31,6 @@
   "scripts": {
     "preinstall": "npm prune",
     "postinstall": "http-server",
-    "start": "http-server && ./node_modules/grunt-cli/bin/grunt"
+    "start": "http-server"
   }
 }

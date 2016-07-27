@@ -6,7 +6,7 @@ module.exports = function(grunt) {
     require('time-grunt')(grunt);
     require('load-grunt-tasks')(grunt);
 
-    var appJs = ['src/*.js', 'debug.js'];
+    var appJs = ['src/*.js'];
 
     grunt.initConfig({
         jshint: {
