@@ -24,6 +24,22 @@ var hasCycle = function(head) {
   }
   return false; 
 };
+
+Two Pointers
+let array = [1,2,3,4,5,6,7,8,9,10]
+
+
+for(var first = 0, last = array.length - 1; first < last; first++, last--){
+  if(array[first] % 2 === 0 && array[last] % 2 === 0){
+    let tmp = array[first]
+    array[first] = array[last]
+    array[last] = tmp
+  }else if(array[first] % 2 === 0){
+    first--
+  }else if(array[last] % 2 === 0){
+    last--
+  }
+}
  */
 // TODO: to be revised
 var hasCycle = function(head) {
