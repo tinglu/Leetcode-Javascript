@@ -34,3 +34,13 @@ var rob = function(nums) {
     return Math.max(a, b);
 };
 console.log(rob([2, 1, 1, 2]));
+
+
+//[2, 1, 1, 2]
+//recurrent relation is: m(i) = max{m(i - 1), m(i - 2) + i}
+
+
+//m(0) = max{i} = 2
+//m(1) = max{m(0), 1} = 2
+//m(2) = max{m(1), m(0) + 1} = 3
+//m(3) = max{m(2), m(1) + 2} = 4
