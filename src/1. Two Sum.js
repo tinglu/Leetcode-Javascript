@@ -61,14 +61,14 @@
 // }
 
 // 323 ms
-var twoSum = function(nums, target) {
-    for (const [idx, num] of nums.entries()) {
-        const nextIdx = nums.indexOf(target - num)
-        if (nextIdx > -1 && nextIdx !== idx) {
-            return [idx, nextIdx]
-        }
+var twoSum = function (nums, target) {
+  for (const [idx, num] of nums.entries()) {
+    const nextIdx = nums.indexOf(target - num)
+    if (nextIdx > -1 && nextIdx !== idx) {
+      return [idx, nextIdx]
     }
-    return false
+  }
+  return false
 }
 
 // console.log(twoSum([2, 7, 11, 15], 9))

@@ -12,8 +12,8 @@
  */
 
 /**
-Suppose there is a cycle existing in the linked list, then runner will meet walker otherwise cycle does not exist.
-var hasCycle = function(head) {
+ Suppose there is a cycle existing in the linked list, then runner will meet walker otherwise cycle does not exist.
+ var hasCycle = function(head) {
   if(head === null) return false
   let walker = head
   let runner = head
@@ -25,11 +25,11 @@ var hasCycle = function(head) {
   return false; 
 };
 
-Two Pointers
-let array = [1,2,3,4,5,6,7,8,9,10]
+ Two Pointers
+ let array = [1,2,3,4,5,6,7,8,9,10]
 
 
-for(var first = 0, last = array.length - 1; first < last; first++, last--){
+ for(var first = 0, last = array.length - 1; first < last; first++, last--){
   if(array[first] % 2 === 0 && array[last] % 2 === 0){
     let tmp = array[first]
     array[first] = array[last]
@@ -42,9 +42,9 @@ for(var first = 0, last = array.length - 1; first < last; first++, last--){
 }
  */
 // TODO: to be revised
-var hasCycle = function(head) {
+var hasCycle = function (head) {
   if (head === null) return false;
-  var loop = function(node) {
+  var loop = function (node) {
     if (node.visited) return true;
     node.visited = true;
     if (node.next === null) {
