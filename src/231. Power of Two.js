@@ -17,4 +17,4 @@ var isPowerOfTwo = function(n) {
     // power of two numbers - 1 could exist in any bit 10, 100, 1000, etc...
     return n > 0 && (n & (n - 1)) === 0;
 };
-console.log(isPowerOfTwo(2));
+// console.log(isPowerOfTwo(2));
