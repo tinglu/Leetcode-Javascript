@@ -1,4 +1,4 @@
-# Leetcode-Javascript
+# Leetcode-JavaScript
 
 Run `npm start` to debug in localhost.
 
